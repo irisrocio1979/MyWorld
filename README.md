@@ -27,6 +27,11 @@ The player controls the main character, Hollow Knight, in a mapped virtual envir
 ### Collaborative Mode
 Developed using WebRTC for real-time collaboration, the game allows a second player to view the gameplay on a PC. A secondary controller generates 3D objects to obstruct enemy paths, enhancing collaborative gameplay.
 
+## Additional Resources
+To use a second controller for the collaborative mode, download the necessary applications from the following link:
+
+[Download Second Controller Applications](https://drive.google.com/drive/folders/12whgEV0gQuzFfjroieBsw9aOhiJOjVdK)
+
 ## Challenges and Solutions
 ### Unity Compatibility
 - Ensuring compatibility with Magic Leap required selecting the correct Unity version.
@@ -49,10 +54,9 @@ Developed using WebRTC for real-time collaboration, the game allows a second pla
 We welcome contributions from the community. Please fork the repository and create a pull request with a detailed description of your changes. Ensure compatibility with the current project setup and adhere to the coding standards outlined in `CONTRIBUTING.md`.
 
 ## Visual Overview
-![My World Game Overview](ImagesTest/game_screenshot.png)
+![My World Game Overview](ImageTest/hello.png)
 
 For more details, refer to the complete project report and documentation in the repository.
 
 ## Contact
 For any questions or further information, please reach out to the project maintainers via the GitHub repository.
-
