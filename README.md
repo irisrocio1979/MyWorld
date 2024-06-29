@@ -18,11 +18,13 @@ My World is a survival game where the main character, controlled by the player, 
 
 ## Setup and Usage
 To set up and run the project:
-1. Clone the repository from [GitHub](https://github.com/Josep152/my_world_magicleap).
-2. Open the project in Unity 2020.2.2.
-3. Ensure the Magic Leap SDK 0.25.0 is installed.
-4. Follow the instructions in the `Setup.md` file for device integration and initial configuration.
-5. Use the Magic Leap controller to navigate and interact within the game.
+1. **Download the [Magic Leap Unity Project Template](https://ml1-developer.magicleap.com/en-us/learn/guides/get-started-developing-in-unity)**.
+2. **Clone this repository from [GitHub](https://github.com/Josep152/my_world_magicleap)**.
+3. **Copy the contents of this repository into the `Assets` folder of the downloaded Magic Leap Unity Project Template**.
+4. Open the project in Unity 2020.2.2.
+5. Ensure the Magic Leap SDK 0.25.0 is installed.
+6. Follow the instructions in the `Setup.md` file for device integration and initial configuration.
+7. Use the Magic Leap controller to navigate and interact within the game.
 
 ## Game Modes
 ### Single Player
