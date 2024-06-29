@@ -27,6 +27,51 @@ The player controls the main character, Hollow Knight, in a mapped virtual envir
 ### Collaborative Mode
 Developed using WebRTC for real-time collaboration, the game allows a second player to view the gameplay on a PC. A secondary controller generates 3D objects to obstruct enemy paths, enhancing collaborative gameplay.
 
+## WebRTC Setup
+Developed using WebRTC for real-time collaboration, the game allows a second player to view the gameplay on a PC. 
+
+### Requirements
+To run this example, you’ll need:
+- Python 3
+- Unity Version 2022.2.0f1 or higher
+- Magic Leap Hub
+- Magic Leap Unity Examples Project
+- A Magic Leap 1 device that has Developer Mode enabled
+  
+### Running the Example Scene
+To run the WebRTC example, you need to set up two parts - the server on your computer, and the scene on your device. This section goes over both parts.
+#### Set up the Server
+1. Ensure both your computer and the Magic Leap device are connected to the same network.
+2. Open a command-line interface (CLI).
+3. Find and make note of your computer's local IP address by entering the following command:
+   - Mac and Linux: `ifconfig`
+   - Windows: `ipconfig`
+4. Navigate to the Server directory inside the Magic Leap Examples project:
+   ```sh
+   cd <PATH-TO-YOUR-PROJECT-FOLDER>/Assets/MagicLeap/Examples/WebRTCSetup/Server
+   ```
+5. Start the server by running the following command:
+    ```sh
+   python server.py
+   ```
+6. Open http://127.0.0.1:8080/ in a browser window (not on the device).
+7. On the website, select Connect and grant access to both the camera and microphone.
+
+### Set up the Device and the Scene
+1. Power on the Magic Leap and connect the device to your computer. Allow USB debugging if prompted.
+2. Open the Unity Hub and then open the Magic Leap examples project.
+3. Navigate to the Magic Leap examples folder: MagicLeap > tools > unity > version > MagicLeap_Examples.
+4. Open MagicLeap_Examples as your project.
+5. In Unity, go to File > Build Settings.
+6. Under Scenes in Build, put a checkmark next to MagicLeap/Examples/Scenes/WebRTC.
+7. Make sure your Magic Leap device is powered on and configured for developer mode.
+8. Click Build and Run. If prompted, create a folder for Unity builds.
+9. When the project builds, put on your Magic Leap 2 headset, accept the prompts, and start the WebRTC experience.
+10. Enter the address of your server (e.g., 192.168.1.15X) and click Connect.
+You should see the video streams from both your computer and the Magic Leap 2 headset.
+
+
+
 ## Additional Resources
 To use a second controller for the collaborative mode, download the necessary applications from the following link:
 
