@@ -11,6 +11,10 @@ My World is a survival game where the main character, controlled by the player, 
 - **Blender**: For 3D character modeling.
 - **Mixamo**: For character animations.
 - **Magic Leap Assets**: Utilized for camera access, environment mapping, and other mixed reality functionalities.
+- Magic Leap Hub
+- Magic Leap Unity Examples Project
+- A Magic Leap 1 device that has Developer Mode enabled
+  
 
 ## Setup and Usage
 To set up and run the project:
@@ -31,13 +35,8 @@ Developed using WebRTC for real-time collaboration, the game allows a second pla
 Developed using WebRTC for real-time collaboration, the game allows a second player to view the gameplay on a PC. 
 
 ### Requirements
-To run this example, you’ll need:
-- Python 3
-- Unity Version 2022.2.0f1 or higher
-- Magic Leap Hub
-- Magic Leap Unity Examples Project
-- A Magic Leap 1 device that has Developer Mode enabled
-  
+To run this example, you’ll need Python 3
+
 ### Running the Example Scene
 To run the WebRTC example, you need to set up two parts - the server on your computer, and the scene on your device. This section goes over both parts.
 #### Set up the Server
